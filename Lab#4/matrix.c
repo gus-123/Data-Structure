@@ -153,7 +153,7 @@ int fill_data(int** matrix, int row, int col){
 
 	for (int i = 0; i < row; i++){
 		for (int j = 0; j < col; j++){
-			matrix[i][j] = rand() % 20; /*matrix값을 랜덤함수로 숫자(1 ~ 20)를 채움*/
+			matrix[i][j] = rand() % 20; /*matrix값을 랜덤함수로 숫자(0 ~ 19)를 채움*/
 		}
 	}
 
